@@ -25,24 +25,40 @@ body {
 .box {
   width: 200px;
   height: 200px;
+  position: relative;
 }
 
 .red {
   background-color: pink;
+  position: absolute;
+  top: 50px;
+  right: 100px
 }
 
 .green {
   background-color: lightgreen;
+  position: absolute;
+  top: 50px;
+  right: 50%;
 }
 
 .blue {
   background-color: lightblue;
+  top: 50px;
+  left: 200px;
 }
 
 .orange {
   background-color: orange;
+  position: absolute;
+  top: 75%;
+  left: 25%;
 }
 
 .yellow {
   background-color: yellow;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
